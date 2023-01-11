@@ -1,0 +1,82 @@
+.container {
+  margin: 6vh 12vw;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid #72a1e5;
+  background: none;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+form button {
+  color: #fff;
+  background: none;
+  border-radius: 8px;
+  border: 2px solid #72a1e5;
+  padding: 0.5rem;
+  transition: 0.25s ease;
+}
+
+form button:hover {
+  cursor: pointer;
+  background: #72a1e5;
+  transition: 0.25s ease;
+}
+
+label {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  display: block;
+  color: #fff;
+}
+
+.todoContainer {
+  background: #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.todoContainer table {
+  width: 100%;
+}
+
+.todoContainer table tr th {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.todoContainer table tr td {
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.todoContainer table tr button {
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: 2px solid #72a1e5;
+  background: none;
+  font-weight: bold;
+  margin: 0 0.25rem;
+  transition: 0.25s ease;
+}
+
+.todoContainer table tr button:hover {
+  background: #fff;
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.pending {
+  font-weight: bold;
+  color: #ea2b1f;
+}
+
+.finished {
+  font-weight: bold;
+  color: #317b22;
+}
