@@ -1,2 +1,2 @@
-# Todo-List
- CRUD made in ReactJS. Todo List.
+# Todo List made with ReactJS
+ This Todo List was made with ReactJS by luannzin.
